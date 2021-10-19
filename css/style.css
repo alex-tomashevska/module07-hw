@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: lavender;
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url("../fonts/Quicksand/Quicksand.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+section {
+    margin-top: 1px;
+    position: relative;
+}
+.form {
+    position: absolute;
+    left:77%;
+    font-size: 0.8rem;
+    width: 18rem;
+    height: 100vh;
+    box-shadow: -1px 1px 8px 0 rgba(34, 60, 80, 0.27);
+    padding: 2rem;
+    background: white;
+}
+
+h1{
+    font-size: 19px;
+    font-weight: 700;
+    padding-bottom: 1.5rem;
+}
+input {
+    border: none;
+    border-bottom: 1px solid rgba(222, 222, 222, 0.8);
+    width: 100%;
+    height: 24px;
+    margin-bottom: 20px;
+
+}
+input::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: darkgray;
+}
+input[type='password'] {
+    letter-spacing: 1px;
+}
+.checkbox {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+
+}
+input[type='checkbox'] {
+    width: 12px;
+}
+label[for='checkbox'] {
+    padding-top: 4px;
+    padding-left: 8px;
+}
+.submit {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type='submit'] {
+    background: linear-gradient(180deg, rgba(128, 46, 210, 0.7) 33%, rgba(193, 45, 195, 0.7));
+    width: 8rem;
+    border-radius: 20px;
+    color: #fff;
+}
+.sign_in {
+    padding: 3px 0 0 30px;
+    text-decoration: none;
+}
